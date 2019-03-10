@@ -68,20 +68,17 @@ https://code.visualstudio.com/docs/python/tutorial-django
 
    -------------------------------------------------
 
-   cmd: python -m venv env
-
-   cmd: python -m pip install django
-
-   cmd: env\scripts\activate
-
-   cmd: deactivate
-
-   -------------------------------------------------
+    cmd: python -m venv env
+    cmd: python -m pip install django
+    cmd: env\scripts\activate
+    cmd: deactivate
 
     cmd: pip install pipenv      
- 
     cmd: pipenv install django
-
     cmd: pipenv shell            - To activate the virtual environment
-
     cmd: exit                    - To deactivate the virtual environment
+
+    cmd: pip install virtualenv
+    cmd: virtualenv venv_name
+    cmd: source venv/bin/activate
+    cmd: deactivate
