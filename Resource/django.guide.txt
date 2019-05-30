@@ -78,7 +78,13 @@ https://code.visualstudio.com/docs/python/tutorial-django
     cmd: pipenv shell            - To activate the virtual environment
     cmd: exit                    - To deactivate the virtual environment
 
+    -------------------------------------------------
+
     cmd: pip install virtualenv
+
     cmd: virtualenv venv_name
-    cmd: source venv/bin/activate
+    cmd: venv/scripts/activate
     cmd: deactivate
+
+
+cmd: pip install -r requirements.txt
