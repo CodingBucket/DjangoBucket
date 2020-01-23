@@ -15,6 +15,8 @@ cmd: deactivate                - Dactivate virtual evnvironment
   
 cmd: pip install django==2.0.7
 
+cmd: django-admin --version
+
 cmd: django-admin startproject new-project-name
 
 cmd: python manage.py runserver
@@ -86,5 +88,16 @@ https://code.visualstudio.com/docs/python/tutorial-django
     cmd: venv/scripts/activate
     cmd: deactivate
 
-
 cmd: pip install -r requirements.txt
+
+# Django REST Framework
+  cmd: virtualenv venv_name (Create virtual env)
+  cmd: pip install django
+  cmd: pip install djangorestframework
+  cmd: djnago-admin startproject project-name .
+  cmd: python manage.py migrate
+  cmd: python manage.py createsuperuser
+  cmd: python manage.py startapp app-name
+  - rest_framework in INSTALLED_APPS of settings.py
+  
+ 
